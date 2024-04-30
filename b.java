@@ -10,24 +10,24 @@ public class b {
     boolean es_primo = true;
 
     System.out.print("Ingrese un número: ");
-    numero = newbie.nextInt();
+    nomero = newbie.nextInt();
 
-    if (numero < 2) {
+    if (nomero < 2) {
       System.out.println("El número debe ser mayor o igual a 2.");
 
     }
 
-    for (int i = 2; i < numero; i++) {
-      if (numero % i == 0) {
+    for (int i = 2; i < nomero; i++) {
+      if (nomero % i == 0) {
         es_primo = false;
         break;
       }
     }
 
     if (es_primo) {
-      System.out.println("El número es primo:" + numero);
+      System.out.println("El número es primo:" + nomero);
     } else {
-      System.out.println("El número no es primo:" + numero);
+      System.out.println("El número no es primo:" + nomero);
     }
     newbie.close();
   }
