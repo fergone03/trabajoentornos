@@ -4,13 +4,13 @@ public class b {
 
   public static void main(String[] args) {
 
-    Scanner input = new Scanner(System.in);
+    Scanner newbie = new Scanner(System.in);
 
     int numero;
     boolean es_primo = true;
 
     System.out.print("Ingrese un número: ");
-    numero = input.nextInt();
+    numero = newbie.nextInt();
 
     if (numero < 2) {
       System.out.println("El número debe ser mayor o igual a 2.");
@@ -29,7 +29,7 @@ public class b {
     } else {
       System.out.println("El número no es primo:" + numero);
     }
-    input.close();
+    newbie.close();
   }
 
 }
