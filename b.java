@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class a {
+public class b {
 
   public static void main(String[] args) {
 
